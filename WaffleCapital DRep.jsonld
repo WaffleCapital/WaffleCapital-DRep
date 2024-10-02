@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "WaffleCapital",
+    "motivations": "- Passionate about Cardano and decentralisation\n- Representing a large collective stake in the ecosystem\n- Active in the community, both privately and professionally",
+    "objectives": "Waffle Capital is a Cardano hedge fund. We strongly believe in the future of the ecosystem and we strive to contribute. The team is based in Hong Kong with links to its local community, but we hope to also represent the views of those we interact with abroad. Broadly speaking we hope to give balanced take between business efficiency and decentralisation. \n",
+    "paymentAddress": "addr1qyk0v92fw8x0pkfzxevj7m58884xpr7w30g7yl30knfn5rf4d5swdhkujjv8csq7ht859dk8g6u0h85seun40q26flvsuxk5jr",
+    "qualifications": "- BA in Political Science\n- 7 years in the space\n- WFFL SPO (>10k blocks)\n- Vast network within the space \n- Understanding of business needs for projects\n\n",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Waffle Capital",
+        "uri": "https://www.wafflecapital.xyz/"
+      },
+      {
+        "@type": "Identity",
+        "label": "CEO - Waffle Capital",
+        "uri": "https://www.linkedin.com/in/youry-brauner-6a634879/"
+      }
+    ]
+  }
+}
