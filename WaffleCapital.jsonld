@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -50,10 +51,8 @@
       }
     }
   },
-  "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "doNotList": false,
     "givenName": "WaffleCapital",
     "motivations": "- Passionate about Cardano and decentralisation\n- 7 years in the space\n- Active in the ecosystem, both privately and professionally\n- WFFL SPO (>10k blocks)",
     "objectives": "Waffle Capital is a Cardano hedge fund. We strongly believe in the future of the ecosystem and we strive to contribute. The team is based in Hong Kong with links to its local community, but we hope to also represent the views of those we interact with around the world. Broadly speaking we hope to give a balanced take between business efficiency and decentralisation. ",
